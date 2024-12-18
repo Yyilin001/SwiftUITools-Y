@@ -9,6 +9,8 @@ import SwiftUI
 public func HoleShapeMask(in rect: CGRect) -> Path {
     var shape = Rectangle().path(in: rect)
      
+    
+    
     shape.addPath(Circle().path(in: rect))
     return shape
 }
